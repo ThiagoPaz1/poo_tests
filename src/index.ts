@@ -1,7 +1,4 @@
-class Test {
-  private name: string
+import { ninja, ninjaType } from "./factory";
 
-  constructor() {
-    this.name = ""
-  }
-}
+console.log(ninja.infoTheNinja)
+console.log(ninjaType.infoTheNinjaType)
