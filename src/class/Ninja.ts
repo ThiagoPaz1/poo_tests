@@ -23,6 +23,6 @@ export class Ninja extends WaeponNinja {
   }
   
   getListWaepon(): string[] {
-    throw new Error("Method not implemented.")
+    return ["Kunai", "Shuriken"]
   }
 }
