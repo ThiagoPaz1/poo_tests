@@ -19,4 +19,8 @@ export class NinjaType extends Ninja {
   public get infoTheNinjaType(): string {
     return `I have ${this.level} level, and my element jutsu main is ${this.primaryElementJutsu}`
   }
+
+  public atack(): string {
+    return "Atack with kunai"
+  }
 }

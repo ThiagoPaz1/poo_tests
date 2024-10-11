@@ -12,4 +12,8 @@ export class Ninja {
   public get infoTheNinja(): string {
     return `Hello, my name is ${this.name}, i have ${this.age} and from at ${this.village} village`
   }
+
+  public atack(): string {
+    return "Atack with jutsu"
+  }
 }
