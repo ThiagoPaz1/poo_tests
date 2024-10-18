@@ -19,7 +19,6 @@ export class Ninja extends WaeponNinja {
   
   public atack(): string {
     return "Atack with jutsu"
-  
   }
   
   getListWaepon(): string[] {

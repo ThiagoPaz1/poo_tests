@@ -1,4 +1,5 @@
-import express, { Application } from "express";
+import express, { Application } from "express"
+import { router } from "./routes"
 
 class App {
   public app: Application
@@ -15,7 +16,8 @@ class App {
   }
 
   routes() {
-    this.app.get('/', (req, res) => {
+    this.app.use("/", router)
+    this.app.get("/", (req, res) => {
       res.json({ ok: true})
     })
   }
