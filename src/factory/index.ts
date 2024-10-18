@@ -1,6 +1,6 @@
 import { Ninja } from "../class/Ninja"
 import { NinjaType } from "../class/NinjaType"
-import { NinjaController } from "../controllers/ninja"
+import { NinjaController } from "../controllers/ninja.controller"
 
 const ninja = new Ninja("Thiago", "26", "Folha")
 const ninjaType = new NinjaType("Thiago", "26", "Folha", "jounin", "raiton")
